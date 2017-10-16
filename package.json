@@ -1,0 +1,19 @@
+{
+  "name": "with-firebase-hosting",
+  "version": "2.0.0",
+  "description":
+    "Host Next.js SSR app on Firebase Cloud Functions with Firebase Hosting redirects.",
+  "scripts": {
+    "install:app": "cd app && yarn install",
+    "install:functions": "cd functions && yarn install",
+    "postinstall": "yarn install:app && yarn install:functions",
+    "next": "cd app && yarn dev",
+    "preserve": "yarn build-all",
+    "serve": "firebase serve",
+    "predeploy": "yarn build-all",
+    "deploy": "firebase deploy",
+    "build-all": "yarn build-next && yarn build-firebase",
+    "build-next": "cd app && yarn install && yarn build",
+    "build-firebase": "cd functions && yarn install"
+  }
+}
