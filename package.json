@@ -1,19 +1,35 @@
 {
   "name": "with-firebase-hosting",
+  "private": true,
   "version": "2.0.0",
-  "description":
-    "Host Next.js SSR app on Firebase Cloud Functions with Firebase Hosting redirects.",
+  "license": "MIT",
+  "description": "Host Next.js SSR app on Firebase Cloud Functions with Firebase Hosting redirects.",
   "scripts": {
     "install:app": "cd app && yarn install",
     "install:functions": "cd functions && yarn install",
     "postinstall": "yarn install:app && yarn install:functions",
     "next": "cd app && yarn dev",
-    "preserve": "yarn build-all",
+    "preserve": "yarn build:all",
     "serve": "firebase serve",
-    "predeploy": "yarn build-all",
+    "predeploy": "yarn build:all",
     "deploy": "firebase deploy",
-    "build-all": "yarn build-next && yarn build-firebase",
-    "build-next": "cd app && yarn install && yarn build",
-    "build-firebase": "cd functions && yarn install"
+    "build:all": "yarn build:next && yarn build:firebase",
+    "build:next": "cd app && yarn install && yarn build",
+    "build:firebase": "cd functions && yarn install"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-flow": "^2.29.1",
+    "eslint-plugin-flowtype": "^2.37.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "flow-bin": "^0.57.3"
   }
 }

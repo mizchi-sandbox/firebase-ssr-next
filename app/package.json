@@ -1,8 +1,12 @@
 {
   "name": "app",
+  "license": "MIT",
+  "private": true,
   "description": "Next.js React SSR App",
   "dependencies": {
-    "next": "4.0.0-beta.2",
+    "firebase": "^4.5.2",
+    "firebaseui": "^2.4.0",
+    "next": "4.1.0",
     "react": "16.0.0",
     "react-dom": "16.0.0"
   },

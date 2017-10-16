@@ -1,32 +1,32 @@
-[debug] [2017-10-16T21:24:18.889Z] ----------------------------------------------------------------------
-[debug] [2017-10-16T21:24:18.891Z] Command:       /Users/mz/.nodebrew/node/v8.7.0/bin/node /Users/mz/.nodebrew/current/bin/firebase serve
-[debug] [2017-10-16T21:24:18.891Z] CLI Version:   3.13.1
-[debug] [2017-10-16T21:24:18.891Z] Platform:      darwin
-[debug] [2017-10-16T21:24:18.891Z] Node Version:  v8.7.0
-[debug] [2017-10-16T21:24:18.892Z] Time:          Tue Oct 17 2017 06:24:18 GMT+0900 (JST)
-[debug] [2017-10-16T21:24:18.892Z] ----------------------------------------------------------------------
+[debug] [2017-10-16T22:01:57.172Z] ----------------------------------------------------------------------
+[debug] [2017-10-16T22:01:57.174Z] Command:       /Users/mz/.nodebrew/node/v8.7.0/bin/node /Users/mz/.nodebrew/current/bin/firebase serve
+[debug] [2017-10-16T22:01:57.174Z] CLI Version:   3.13.1
+[debug] [2017-10-16T22:01:57.174Z] Platform:      darwin
+[debug] [2017-10-16T22:01:57.174Z] Node Version:  v8.7.0
+[debug] [2017-10-16T22:01:57.175Z] Time:          Tue Oct 17 2017 07:01:57 GMT+0900 (JST)
+[debug] [2017-10-16T22:01:57.175Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-10-16T21:24:18.902Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-10-16T21:24:18.903Z] > authorizing via signed-in user
-[debug] [2017-10-16T21:24:18.904Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/playground-e6572  
- Tue Oct 17 2017 06:24:18 GMT+0900 (JST)
-[debug] [2017-10-16T21:24:19.722Z] <<< HTTP RESPONSE 200
-[debug] [2017-10-16T21:24:19.723Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/playground-e6572/tokens  
- Tue Oct 17 2017 06:24:19 GMT+0900 (JST)
-[debug] [2017-10-16T21:24:20.579Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-16T22:01:57.184Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-16T22:01:57.184Z] > authorizing via signed-in user
+[debug] [2017-10-16T22:01:57.186Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/playground-e6572  
+ Tue Oct 17 2017 07:01:57 GMT+0900 (JST)
+[debug] [2017-10-16T22:01:58.052Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-16T22:01:58.053Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/playground-e6572/tokens  
+ Tue Oct 17 2017 07:01:58 GMT+0900 (JST)
+[debug] [2017-10-16T22:01:59.122Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/Users/mz/sandbox/with-firebase-hosting'...
 [info] 
-[debug] [2017-10-16T21:24:20.584Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/playground-e6572  
- Tue Oct 17 2017 06:24:20 GMT+0900 (JST)
-[debug] [2017-10-16T21:24:21.395Z] <<< HTTP RESPONSE 200
-[debug] [2017-10-16T21:24:21.395Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/284880527227/clients/_:getWebAppConfig  
- Tue Oct 17 2017 06:24:21 GMT+0900 (JST)
-[debug] [2017-10-16T21:24:22.039Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-16T22:01:59.125Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/playground-e6572  
+ Tue Oct 17 2017 07:01:59 GMT+0900 (JST)
+[debug] [2017-10-16T22:01:59.940Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-16T22:01:59.940Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/284880527227/clients/_:getWebAppConfig  
+ Tue Oct 17 2017 07:01:59 GMT+0900 (JST)
+[debug] [2017-10-16T22:02:00.961Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] ✔  hosting: Local server: http://localhost:5000
 
 [info] [hosting] Rewriting / to live function next
-[info] [hosting] Rewriting /_next/e5c2f7ad-caf1-42db-a1af-ce743136c40e/page/ to live function next
-[info] [hosting] Rewriting /_next/e5c2f7ad-caf1-42db-a1af-ce743136c40e/page/_error/index.js to live function next
-[info] [hosting] Rewriting /_next/34e303c23413de7ee0655c46c471056a/app.js to live function next
+[info] [hosting] Rewriting /_next/b3f519ad-3dbe-4273-ad81-211034bb1e26/page/ to live function next
+[info] [hosting] Rewriting /_next/b3f519ad-3dbe-4273-ad81-211034bb1e26/page/_error/index.js to live function next
+[info] [hosting] Rewriting /_next/89243f9440456becf5399efe3052b249/app.js to live function next
