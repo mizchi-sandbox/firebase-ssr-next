@@ -1,3 +1,6 @@
+try {
+  require('babel-polyfill')
+} catch (e) {}
 const functions = require('firebase-functions')
 const next = require('next')
 

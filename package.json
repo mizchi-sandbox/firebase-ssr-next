@@ -1,9 +1,9 @@
 {
   "name": "with-firebase-hosting",
   "private": true,
-  "version": "2.0.0",
   "license": "MIT",
-  "description": "Host Next.js SSR app on Firebase Cloud Functions with Firebase Hosting redirects.",
+  "description":
+    "Host Next.js SSR app on Firebase Cloud Functions with Firebase Hosting redirects.",
   "scripts": {
     "install:app": "cd app && yarn install",
     "install:functions": "cd functions && yarn install",
@@ -30,6 +30,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-standard": "^3.0.1",
-    "flow-bin": "^0.57.3"
+    "flow-bin": "^0.57.3",
+    "prettier": "^1.7.4"
   }
 }
