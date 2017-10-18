@@ -3,6 +3,7 @@ import App from '../components/App'
 import clientCredentials from '../clientCredentials'
 // import * as firebase from 'firebase'
 const firebase = require('firebase')
+require('firebase/firestore')
 
 global.firebase = firebase
 
